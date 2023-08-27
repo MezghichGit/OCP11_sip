@@ -2,7 +2,7 @@ package chapitre8_20082023;
 
 import java.io.File;
 
-public class Main {
+public class MainCopy {
 
 	public static void main(String[] args) {
 		//

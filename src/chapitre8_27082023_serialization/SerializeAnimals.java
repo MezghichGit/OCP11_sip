@@ -42,9 +42,13 @@ public class SerializeAnimals {
         List<Animal> animals = new ArrayList<Animal>();
         animals.add(new Animal("Tommy Tiger", 5, 'T'));
         animals.add(new Animal("Peter Penguin", 8, 'P'));
-        File dataFile = new File("animal.data");
-        createAnimalsFile(animals, dataFile);
-        System.out.println(getAnimals(dataFile));
+        System.out.println(animals);
+        
+        File dataFile = new File("D:\\Training\\7-OCP_1Z0-809\\animals.txt");
+        
+        createAnimalsFile(animals, dataFile); // la serialization
+        
+        System.out.println(getAnimals(dataFile)); // la deserialization
     }
 
 }
