@@ -27,8 +27,8 @@ public class Animal implements Serializable{
 	public char getType() {
 		return type;
 	}
-	*/
 	
+	*/
 	private static final long serialVersionUID = 2L;
 	private transient String name;
 	private transient int age;
